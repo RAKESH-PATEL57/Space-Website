@@ -222,7 +222,8 @@ section
     right: -5%;
     bottom: -25%;
     height: 30rem;
-    animation:rotate 60s linear infinite;
+    /* animation:rotate 60s linear infinite; */
+    /* border: 2px solid red; */
     filter: drop-shadow(0rem 0rem 1rem rgb(32, 32, 56));
 }
 
