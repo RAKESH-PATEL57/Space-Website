@@ -39,7 +39,7 @@
             <!-- <h2>And</h2>
             <h2>Gain some knowledge</h2> -->
         </div>
-        <span class="scrollBtn">↓</span>
+        <span class="scrollDownArrow">↓</span>
         <div class="home-bg">
             <img class="moon" src="./images/moon.png" alt="">
             <img class="earth" src="./images/earth.png" alt="">
@@ -66,6 +66,8 @@
     <!-- <section></section> -->
     <!-- <section></section> -->
 
+ 
+
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js" integrity="sha512-7eHRwcbYkK4d9g/6tD/mhkf++eoTHwpNM9woBxtPUBWm67zeAfFC+HrdoE2GanKeocly/VxeLvIqwvCdk7qScg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js" integrity="sha512-onMTRKJBKz8M1TnqqDuGBlowlH0ohFzMXYRNebz+yOcc5TQr/zAKsthzhuv0hiyUKEiQEQXEynnXCvNTOk50dg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
     <script src="https://unpkg.com/@studio-freight/lenis@1.0.33/dist/lenis.min.js"></script> 
@@ -75,9 +77,9 @@
     <script>
         const lenis = new Lenis()
 
-        lenis.on('scroll', (e) => {
-        console.log(e)
-        })
+        // lenis.on('scroll', (e) => {
+        // console.log(e)
+        // })
 
         function raf(time) {
         lenis.raf(time)

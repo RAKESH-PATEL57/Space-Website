@@ -1,12 +1,16 @@
+let scrollDownArrow = document.querySelector(".scrollDownArrow");
+
+scrollDownArrow.classList.toggle("scrollBtnShowHide", window.scrollY > 100);
+
 let earth = document.querySelector('.earth');
 
 let tl = gsap.timeline({
     scrollTrigger: {
         trigger: '.earth',
-        start:'top center',
-        scrub: true,
-       
-        // markers:true
+        start:'top 60%',
+        end:'bottom 80%',
+        scrub: true,   
+        markers:true
     }
 })
 

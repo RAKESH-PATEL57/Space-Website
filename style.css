@@ -182,7 +182,7 @@ section
    letter-spacing: .2rem;
 }
 
-.home .scrollBtn
+.home .scrollDownArrow
 {
     position: absolute;
     bottom: 5%;
@@ -192,6 +192,12 @@ section
                         0rem 0rem 5px var(--main-color)
     );
     animation:scrollBtn 3s linear infinite;
+}
+
+.home .scrollDownArrow.scrollBtnShowHide
+{
+    display: none;
+    opacity: 0;
 }
 
 @keyframes scrollBtn 
