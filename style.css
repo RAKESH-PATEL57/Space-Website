@@ -165,7 +165,7 @@ section
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    /* border: 2px solid red; */
+    /* border-bottom: 2px solid red; */
     height: 100vh;
     /* overflow: hidden; */
 }
@@ -192,6 +192,7 @@ section
                         0rem 0rem 5px var(--main-color)
     );
     animation:scrollBtn 3s linear infinite;
+    z-index: 100;
 }
 
 .home .scrollDownArrow.scrollBtnShowHide
@@ -322,4 +323,28 @@ section
         width: 0rem; 
     }
     
+}
+
+/*********************[[[[[[[[[[[[[[[[[[[[[ second page  ]]]]]]]]]]]]]]]]]]]]]]]]]]********************/
+.second-page
+{
+    position: relative;
+    height: 100vh;
+    width: 100%;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items:end;
+    flex-direction: column;
+}
+
+.second-page .planet-details
+{
+    position: absolute;
+    /* border: 2px solid red; */
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
