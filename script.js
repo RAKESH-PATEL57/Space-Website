@@ -12,13 +12,14 @@ let tl = gsap.timeline({
 })
 
 tl.to('.earth', {
-    x:-1150,
-    y:450,
-    rotate:360,
+    x:-700,
+    y:310,
+    // rotate:360,
+    opacity:0,
     scrollTrigger: {
         trigger: '.earth',
-        start:'top 60%',
-        end:'bottom 60%',
+        start:'top 50%',
+        end:'bottom 95%',
         scrub: true,   
         // markers:true
     }
@@ -28,14 +29,42 @@ tl.to('.earth', {
 //[[[[[[[[[[[[[[[[[[[[[[[[[[*************************** second page  ***********************]]]]]]]]]]]]]]]]]]]]]
 let secondPagePlanetDetails = document.querySelector('.planet-details');
 tl.from('.planet-details', {
-    x:500,
+    x:400,
     y:0,
     opacity:0,
     // rotate:360,
     scrollTrigger: {
         trigger: '.planet-details',
         start:'top 100%',
-        end:'bottom 60%',
+        end:'bottom 75%',
+        scrub: true,   
+        // markers:true
+    }
+});
+
+// tl.to('.planet-details', {
+//     x:-50,
+//     y:0,
+//     opacity:1,
+//     // rotate:360,
+//     scrollTrigger: {
+//         trigger: '.planet-details',
+//         start:'top 80%',
+//         end:'bottom 75%',
+//         scrub: true,   
+//         markers:true
+//     }
+// });
+
+tl.to('#sMoon', {
+    x:-500,
+    y:200,
+    // rotate:360,
+    opacity:1,
+    scrollTrigger: {
+        trigger: '#sMoon',
+        start:'top 75%',
+        end:'bottom 95%',
         scrub: true,   
         // markers:true
     }
