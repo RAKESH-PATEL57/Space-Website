@@ -28,13 +28,13 @@ tl.to('.earth', {
 
 //[[[[[[[[[[[[[[[[[[[[[[[[[[*************************** second page  ***********************]]]]]]]]]]]]]]]]]]]]]
 let secondPagePlanetDetails = document.querySelector('.planet-details');
-tl.from('.planet-details', {
+tl.from('#first-pl-details', {
     x:400,
     y:0,
     opacity:0,
     // rotate:360,
     scrollTrigger: {
-        trigger: '.planet-details',
+        trigger: '#first-pl-details',
         start:'top 100%',
         end:'bottom 75%',
         scrub: true,   
@@ -42,30 +42,44 @@ tl.from('.planet-details', {
     }
 });
 
-// tl.to('.planet-details', {
-//     x:-50,
-//     y:0,
-//     opacity:1,
+// tl.to('#sMoon', {
+//     x:-500,
+//     y:200,
 //     // rotate:360,
+//     opacity:1,
 //     scrollTrigger: {
-//         trigger: '.planet-details',
-//         start:'top 80%',
-//         end:'bottom 75%',
+//         trigger: '#sMoon',
+//         start:'top 75%',
+//         end:'bottom 95%',
 //         scrub: true,   
-//         markers:true
+//         // markers:true
 //     }
 // });
 
-tl.to('#sMoon', {
-    x:-500,
-    y:200,
+tl.from('#sMoon', {
+    x:510,
+    y:-150,
     // rotate:360,
-    opacity:1,
+    opacity:0,
     scrollTrigger: {
         trigger: '#sMoon',
         start:'top 75%',
         end:'bottom 95%',
         scrub: true,   
-        // markers:true
+        markers:true
+    }
+});
+
+tl.from('#sMoon', {
+    x:510,
+    y:-150,
+    // rotate:360,
+    opacity:0,
+    scrollTrigger: {
+        trigger: '#sMoon',
+        start:'top 75%',
+        end:'bottom 95%',
+        scrub: true,   
+        markers:true
     }
 });

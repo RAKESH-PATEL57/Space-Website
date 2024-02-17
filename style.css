@@ -337,6 +337,7 @@ section
     justify-content: center;
     align-items:center;
     flex-direction: column;
+    border: 2px solid red;
 }
 
 .second-page .planet-details
@@ -351,13 +352,14 @@ section
     /* border: 2px solid aqua; */
 }
 
-.planet-details .smoonHeading
+.planet-details .planateHeading
 {
     font-size: 2.5rem;
     color: var(--main-color);
     text-shadow: 0rem 0rem .5rem var(--main-color);
     text-align: left;
     width: 100%;
+    border: 2px solid red;
 }
 
 .second-page .moon
@@ -365,11 +367,30 @@ section
     height: 31rem;
     width: 31rem;
     position: absolute;
-    left: 50%;
-    bottom: 35%;
-    transform: translate(-50%);
-    /* border: 2px solid red; */
-    opacity: 0;
-    /* opacity: 1; */
+    opacity: 1;
+    left: 0;
+    top: 50%;
+    transform: translate(0%, -50%);
+}
 
+/******************************[[[[[[[[[[[[[[[[[[[ third page section    ]]]]]]]]]]]]]]]]]]]]]]]]]]*******************/
+.third-page
+{
+    /* display: flex; */
+    border: 2px solid red;
+    position: relative;
+}
+
+.third-page .planet-details
+{
+    position: absolute;
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    left: 5%;
+    color: var(--font-color);
+    top: 50%;
+    transform: translate(0%, -50%);
 }
