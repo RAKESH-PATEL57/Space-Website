@@ -18,10 +18,10 @@
                 <li><a href="#planet">PLANET</a></li>
             </ul>
         </nav> -->
-        <div class="inputsection">
+        <!-- <div class="inputsection">
             <input type="text" placeholder="Enter Planet Name">
             <button type="submit" class="btn">Search</button>
-        </div>
+        </div> -->
     </header>
 
     <div class="bg">
@@ -56,32 +56,49 @@
             <span style="--i:5"></span>
         </div>
     </section>
-    <section id="second-page" class="second-page">
+    <section id="mercurySection" class="mercurySection">
         <div class="planet-details" id="first-pl-details">
             <h1 class="planateHeading">Mercury</h1>
             <p>Mercury is the first planet from the Sun and the smallest in the Solar System. In English, it is named after the Roman god Mercurius (Mercury), god of commerce and communication, and the messenger of the gods. Mercury is classified as a terrestrial planet, with roughly the same surface gravity as Mars. The surface of Mercury is heavily cratered, as a result of countless impact events that have accumulated over billions of years. Its largest crater, Caloris Planitia, has a diameter of 1,550 km (960 mi) and one-third the diameter of the planet (4,880 km or 3,030 mi). Similarly to the Earth's Moon, Mercury's surface displays an expansive rupes system generated from thrust faults and bright ray systems formed by impact event remnants.</p>
          </div>
-        <img class="planet" id="mercury" src="./images/Mercury.png" alt="">
+        <img class="planet" id="mercury" src="./images/mercury.png" alt="">
         <!-- <img class="planet" id="tMoon" src="./images/moon.png" alt=""> -->
     </section>
-    <section class="third-page">
+    <section class="venusSection">
         <div class="planet-details" id="second-pl-details">
             <h1 class="planateHeading">Venus</h1>
             <p>Venus is the second planet from the Sun. It has the densest atmosphere of all rocky bodies in the Solar System, so dense that at surface level and 92 atmospheres, it is a supercritical fluid. The planet's surface is dominated by volcanism – there are 167 Venusian volcanoes that are over 100 km (60 mi) across. Venus has a diameter roughly equal to Earth's at 12,104 km (7,521 mi) and is classified as a terrestrial planet..</p>
         </div>
         <img class="planet" id="venus" src="./images/Venus.png" alt="">
-        <!-- <img class="planet" id="smercury" src="./images/Mercury.png" alt=""> -->
     </section>
-    <!-- <section></section> -->
-    <!-- <section></section> -->
 
- 
+    <section id="earthSection" class="earthSection">
+        <div class="planet-details" id="third-pl-details">
+            <h1 class="planateHeading">Earth</h1>
+            <p>Earth is the third planet from the Sun and the only astronomical object known to harbor life. This is enabled by Earth being a water world, the only one in the Solar System sustaining liquid surface water. Almost all of Earth's water is contained in its global ocean, covering 70.8% of Earth's crust. The remaining 29.2% of Earth's crust is land, most of which is located in the form of continental landmasses within one hemisphere, Earth's land hemisphere. Most of Earth's land is somewhat humid and covered by vegetation, while large sheets of ice at Earth's polar deserts retain more water than Earth's groundwater, lakes, rivers and atmospheric water combined. Earth's crust consists of slowly moving tectonic plates, which interact to produce mountain ranges, volcanoes, and earthquakes. Earth has a liquid outer core that generates a magnetosphere capable of deflecting most of the destructive solar winds and cosmic radiation.</p>
+         </div>
+        <img class="planet" id="earth" src="./images/earth.png" alt="">
+        <!-- <img class="planet" id="tMoon" src="./images/moon.png" alt=""> -->
+    </section>
+    
+    <section class="marsSection">
+        <div class="planet-details" id="fourth-pl-details">
+            <h1 class="planateHeading">Mars</h1>
+            <p>Mars is the fourth planet from the Sun. The surface of Mars is orange-red because it is covered in iron(III) oxide dust, giving it the nickname "the Red Planet".[21][22] Mars is among the brightest objects in Earth's sky and its high-contrast albedo features have make it a common subject for telescope viewing. It is classified as a terrestrial planet and is the second smallest of the Solar System's planets with a diameter of 6,779 km (4,212 mi). In terms of orbital motion, a Martian solar day (sol) is equal to 24.5 hours and a Martian solar year is equal to 1.88 Earth years (687 Earth days). Mars has two natural satellites that are small and irregular in shape: Phobos and Deimos.</p>
+        </div>
+        <img class="planet" id="mars" src="./images/mars.png" alt="">
+    </section>
+
+
+    
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js" integrity="sha512-7eHRwcbYkK4d9g/6tD/mhkf++eoTHwpNM9woBxtPUBWm67zeAfFC+HrdoE2GanKeocly/VxeLvIqwvCdk7qScg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js" integrity="sha512-onMTRKJBKz8M1TnqqDuGBlowlH0ohFzMXYRNebz+yOcc5TQr/zAKsthzhuv0hiyUKEiQEQXEynnXCvNTOk50dg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
     <script src="https://unpkg.com/@studio-freight/lenis@1.0.33/dist/lenis.min.js"></script> 
     <script src="./script.js"></script>
     <script src="./canvas.js"></script>
+
+
 
     <script>
         const lenis = new Lenis()
