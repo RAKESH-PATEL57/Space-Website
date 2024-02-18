@@ -27,9 +27,8 @@ tl.to('.earth', {
 
 
 //[[[[[[[[[[[[[[[[[[[[[[[[[[*************************** second page  ***********************]]]]]]]]]]]]]]]]]]]]]
-let secondPagePlanetDetails = document.querySelector('.planet-details');
 tl.from('#first-pl-details', {
-    x:400,
+    x:-400,
     y:0,
     opacity:0,
     // rotate:360,
@@ -42,22 +41,8 @@ tl.from('#first-pl-details', {
     }
 });
 
-// tl.to('#sMoon', {
-//     x:-500,
-//     y:200,
-//     // rotate:360,
-//     opacity:1,
-//     scrollTrigger: {
-//         trigger: '#sMoon',
-//         start:'top 75%',
-//         end:'bottom 95%',
-//         scrub: true,   
-//         // markers:true
-//     }
-// });
-
 tl.from('#sMoon', {
-    x:510,
+    x:550,
     y:-150,
     // rotate:360,
     opacity:0,
@@ -65,21 +50,56 @@ tl.from('#sMoon', {
         trigger: '#sMoon',
         start:'top 75%',
         end:'bottom 95%',
-        scrub: true,   
-        markers:true
-    }
+        scrub: true, 
+       
+        // markers:true
+    },
+    opacity:0
 });
 
-tl.from('#sMoon', {
-    x:510,
-    y:-150,
+tl.from('#tMoon', {
+    x:-610,
+    y:-465,
+    // rotate:360,
+    opacity:1,
+    scrollTrigger: {
+        trigger: '#tMoon',
+        start:'top 13%',
+        end:'bottom 50%',
+        scrub: true,   
+        // markers:true
+    },
+});
+
+
+
+//*******************************[[[[[[[[[[[[[[[[[[[[[[ Third Page ******************************]]]]]]]]]]]]]]]]]]]]]]]
+tl.from('#fmercury', {
+    x:-450,
+    y:-320,
     // rotate:360,
     opacity:0,
     scrollTrigger: {
-        trigger: '#sMoon',
-        start:'top 75%',
-        end:'bottom 95%',
+        trigger: '#fmercury',
+        start:'top 39%',
+        end:'bottom 50%',
         scrub: true,   
-        markers:true
+        // markers:true
+    },
+});
+
+tl.from('#second-pl-details', {
+    x:400,
+    y:0,
+    opacity:0,
+    // rotate:360,
+    scrollTrigger: {
+        trigger: '#second-pl-details',
+        start:'top 100%',
+        end:'bottom 75%',
+        scrub: true,   
+        // markers:true
     }
 });
+
+
