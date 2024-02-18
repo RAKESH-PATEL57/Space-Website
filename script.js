@@ -26,7 +26,7 @@ tl.to('.earth', {
 });
 
 
-//[[[[[[[[[[[[[[[[[[[[[[[[[[*************************** second page  ***********************]]]]]]]]]]]]]]]]]]]]]
+//[[[[[[[[[[[[[[[[[[[[[[[[[[***************************  Mercury  ***********************]]]]]]]]]]]]]]]]]]]]]
 tl.from('#first-pl-details', {
     x:-400,
     y:0,
@@ -54,26 +54,10 @@ tl.from('#mercury', {
        
         // markers:true
     },
-    opacity:0
 });
 
-// tl.from('#tMoon', {
-//     x:-610,
-//     y:-465,
-//     // rotate:360,
-//     opacity:1,
-//     scrollTrigger: {
-//         trigger: '#tMoon',
-//         start:'top 13%',
-//         end:'bottom 50%',
-//         scrub: true,   
-//         // markers:true
-//     },
-// });
 
-
-
-//*******************************[[[[[[[[[[[[[[[[[[[[[[ Third Page ******************************]]]]]]]]]]]]]]]]]]]]]]]
+//*******************************[[[[[[[[[[[[[[[[[[[[[[      Venus       ]]]]]]]]]]]]]]]]]]] ******************************]]]]]]]]]]]]]]]]]]]]]]]
 tl.from('#venus', {
     x:-1000,
     y:-750,
@@ -81,25 +65,12 @@ tl.from('#venus', {
     opacity:0,
     scrollTrigger: {
         trigger: '#venus',
-        start:'top 39%',
+        start:'top 19%',
         end:'bottom 15%',
         scrub: true,   
         // markers:true
     },
 });
-// tl.from('#fmercury', {
-//     x:-450,
-//     y:-320,
-//     // rotate:360,
-//     opacity:0,
-//     scrollTrigger: {
-//         trigger: '#fmercury',
-//         start:'top 39%',
-//         end:'bottom 50%',
-//         scrub: true,   
-//         // markers:true
-//     },
-// });
 
 tl.from('#second-pl-details', {
     x:400,
@@ -115,4 +86,62 @@ tl.from('#second-pl-details', {
     }
 });
 
+//[[[[[[[[[[[[[[[[[[[[[[[[[[***************************  Earth  ***********************]]]]]]]]]]]]]]]]]]]]]
+
+tl.from('#earth', {
+    x:1050,
+    y:-800,
+    // rotate:360,
+    opacity:0,
+    scrollTrigger: {
+        trigger: '#earth',
+        start:'top 19%',
+        end:'bottom 15%',
+        scrub: true,     
+        // markers:true
+    },
+});
+
+tl.from('#third-pl-details', {
+    x:-400,
+    y:0,
+    opacity:0,
+    // rotate:360,
+    scrollTrigger: {
+        trigger: '#third-pl-details',
+        start:'top 100%',
+        end:'bottom 75%',
+        scrub: true,   
+        // markers:true
+    }
+});
+
+//*******************************[[[[[[[[[[[[[[[[[[[[[[      mars       ]]]]]]]]]]]]]]]]]]] ******************************]]]]]]]]]]]]]]]]]]]]]]]
+tl.from('#mars', {
+    x:-1000,
+    y:-750,
+    // rotate:360,
+    opacity:0,
+    scrollTrigger: {
+        trigger: '#mars',
+        start:'top 19%',
+        end:'bottom 15%',
+        scrub: true,   
+        // markers:true
+    },
+});
+
+tl.from('#fourth-pl-details', {
+    x:400,
+    y:0,
+    opacity:0,
+    // rotate:360,
+    scrollTrigger: {
+        trigger: '#fourth-pl-details',
+        start:'top 100%',
+        end:'bottom 75%',
+        scrub: true,   
+        // markers:true
+    }
+});
 
