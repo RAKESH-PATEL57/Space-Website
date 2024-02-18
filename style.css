@@ -134,19 +134,11 @@ section
     flex-direction: column;
 }
 
-#canvasF
+#canvas
 {
     position: absolute;
     /* border: 2px solid red; */
     /* z-index: 1; */
-}
-
-#canvasS
-{
-    position: absolute;
-    top: 100%;
-
-    border: 2px solid aqua;
 }
 
 
@@ -337,7 +329,7 @@ section
     justify-content: center;
     align-items:center;
     flex-direction: column;
-    border: 2px solid red;
+    /* border: 2px solid red; */
 }
 
 .second-page .planet-details
@@ -359,13 +351,17 @@ section
     text-shadow: 0rem 0rem .5rem var(--main-color);
     text-align: left;
     width: 100%;
-    border: 2px solid red;
+    /* border: 2px solid red; */
 }
 
-.second-page .moon
+.planet
 {
     height: 31rem;
     width: 31rem;
+}
+
+#sMoon
+{
     position: absolute;
     opacity: 1;
     left: 0;
@@ -373,11 +369,19 @@ section
     transform: translate(0%, -50%);
 }
 
+#tMoon
+{
+    opacity: 0;
+    position: absolute;
+    top: 80%;
+    left: 40%;
+}
+
 /******************************[[[[[[[[[[[[[[[[[[[ third page section    ]]]]]]]]]]]]]]]]]]]]]]]]]]*******************/
 .third-page
 {
     /* display: flex; */
-    border: 2px solid red;
+    /* border: 2px solid red; */
     position: relative;
 }
 
@@ -394,3 +398,16 @@ section
     top: 50%;
     transform: translate(0%, -50%);
 }
+
+.third-page #fmercury
+{
+    position: absolute;
+    right: 0;
+    top: 50%;
+    transform: translate(0%,-50%);
+    /* border: 2px solid red; */
+    height: 41rem;
+    width: 41rem;
+    opacity: 1;
+}
+
