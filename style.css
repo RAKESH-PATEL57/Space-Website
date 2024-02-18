@@ -139,6 +139,7 @@ section
     position: absolute;
     /* border: 2px solid red; */
     /* z-index: 1; */
+    /* width: 100%; */
 }
 
 
@@ -209,10 +210,10 @@ section
 .home .home-bg .moon
 {
     position: absolute;
-    left: -5%;
+    left: -14%;
     top: -25%;
-    height: 30rem;
-    animation:rotate 60s reverse infinite;
+    height: 35rem;
+    /* animation:rotate 60s reverse infinite; */
 }
 
 .home .home-bg .earth
@@ -318,8 +319,8 @@ section
     
 }
 
-/*********************[[[[[[[[[[[[[[[[[[[[[ second page  ]]]]]]]]]]]]]]]]]]]]]]]]]]********************/
-.second-page
+/*********************[[[[[[[[[[[[[[[[[[[[[ Mercury Section  ]]]]]]]]]]]]]]]]]]]]]]]]]]********************/
+.mercurySection
 {
     position: relative;
     height: 100vh;
@@ -332,7 +333,7 @@ section
     /* border: 2px solid red; */
 }
 
-.second-page .planet-details
+.mercurySection .planet-details
 {
     position: absolute;
     width: 40%;
@@ -369,23 +370,13 @@ section
     transform: translate(0%, -50%);
 }
 
-#tMoon
+/******************************[[[[[[[[[[[[[[[[[[[ Venus section    ]]]]]]]]]]]]]]]]]]]]]]]]]]*******************/
+.venusSection
 {
-    opacity: 0;
-    position: absolute;
-    top: 80%;
-    left: 40%;
-}
-
-/******************************[[[[[[[[[[[[[[[[[[[ third page section    ]]]]]]]]]]]]]]]]]]]]]]]]]]*******************/
-.third-page
-{
-    /* display: flex; */
-    /* border: 2px solid red; */
     position: relative;
 }
 
-.third-page .planet-details
+.venusSection .planet-details
 {
     position: absolute;
     width: 40%;
@@ -399,7 +390,7 @@ section
     transform: translate(0%, -50%);
 }
 
-.third-page #venus
+.venusSection #venus
 {
     position: absolute;
     right: 0;
@@ -408,6 +399,74 @@ section
     /* border: 2px solid red; */
     height: 30rem;
     width: 34rem;
+    opacity: 1;
+}
+
+/*********************[[[[[[[[[[[[[[[[[[[[[ Earth Section  ]]]]]]]]]]]]]]]]]]]]]]]]]]********************/
+.earthSection
+{
+    position: relative;
+    height: 100vh;
+    width: 100%;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    flex-direction: column;
+    /* border: 2px solid red; */
+}
+
+.earthSection .planet-details
+{
+    position: absolute;
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    right: 5%;
+}
+
+#earth
+{
+    position: absolute;
+    opacity: 1;
+    left: 0;
+    top: 50%;
+    transform: translate(0%, -50%);
+    height: 31rem;
+    width: 31rem;
+}
+
+/******************************[[[[[[[[[[[[[[[[[[[ Mars section    ]]]]]]]]]]]]]]]]]]]]]]]]]]*******************/
+.marsSection
+{
+    position: relative;
+}
+
+.marsSection .planet-details
+{
+    position: absolute;
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    left: 5%;
+    color: var(--font-color);
+    top: 50%;
+    transform: translate(0%, -50%);
+}
+
+.marsSection #mars
+{
+    position: absolute;
+    right: 0;
+    top: 50%;
+    transform: translate(0%,-50%);
+    /* border: 2px solid red; */
+    height: 30rem;
+    width: 30rem;
     opacity: 1;
 }
 
