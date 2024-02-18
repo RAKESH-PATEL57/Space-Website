@@ -41,13 +41,13 @@ tl.from('#first-pl-details', {
     }
 });
 
-tl.from('#sMoon', {
+tl.from('#mercury', {
     x:550,
     y:-150,
     // rotate:360,
     opacity:0,
     scrollTrigger: {
-        trigger: '#sMoon',
+        trigger: '#mercury',
         start:'top 75%',
         end:'bottom 95%',
         scrub: true, 
@@ -57,36 +57,49 @@ tl.from('#sMoon', {
     opacity:0
 });
 
-tl.from('#tMoon', {
-    x:-610,
-    y:-465,
-    // rotate:360,
-    opacity:1,
-    scrollTrigger: {
-        trigger: '#tMoon',
-        start:'top 13%',
-        end:'bottom 50%',
-        scrub: true,   
-        // markers:true
-    },
-});
+// tl.from('#tMoon', {
+//     x:-610,
+//     y:-465,
+//     // rotate:360,
+//     opacity:1,
+//     scrollTrigger: {
+//         trigger: '#tMoon',
+//         start:'top 13%',
+//         end:'bottom 50%',
+//         scrub: true,   
+//         // markers:true
+//     },
+// });
 
 
 
 //*******************************[[[[[[[[[[[[[[[[[[[[[[ Third Page ******************************]]]]]]]]]]]]]]]]]]]]]]]
-tl.from('#fmercury', {
-    x:-450,
-    y:-320,
+tl.from('#venus', {
+    x:-1000,
+    y:-750,
     // rotate:360,
     opacity:0,
     scrollTrigger: {
-        trigger: '#fmercury',
+        trigger: '#venus',
         start:'top 39%',
-        end:'bottom 50%',
+        end:'bottom 15%',
         scrub: true,   
         // markers:true
     },
 });
+// tl.from('#fmercury', {
+//     x:-450,
+//     y:-320,
+//     // rotate:360,
+//     opacity:0,
+//     scrollTrigger: {
+//         trigger: '#fmercury',
+//         start:'top 39%',
+//         end:'bottom 50%',
+//         scrub: true,   
+//         // markers:true
+//     },
+// });
 
 tl.from('#second-pl-details', {
     x:400,
