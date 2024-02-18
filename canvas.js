@@ -140,7 +140,6 @@ function Circle(x, y, dx, dy, radius) {   // object name is always capital lette
 // var dy = Math.random() - 0.5 * 8;
 // var radius = 30;
 
-
 var circleArray = [];
 function init()
 {
