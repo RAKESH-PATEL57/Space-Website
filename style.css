@@ -140,6 +140,7 @@ section
     /* border: 2px solid red; */
     /* z-index: 1; */
     /* width: 100%; */
+    opacity: .5;
 }
 
 
@@ -470,3 +471,138 @@ section
     opacity: 1;
 }
 
+/*********************[[[[[[[[[[[[[[[[[[[[[ Jupiter Section  ]]]]]]]]]]]]]]]]]]]]]]]]]]********************/
+.jupiterSection
+{
+    position: relative;
+    height: 100vh;
+    width: 100%;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    flex-direction: column;
+    /* border: 2px solid red; */
+}
+
+.jupiterSection .planet-details
+{
+    position: absolute;
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    right: 5%;
+}
+
+#jupiter
+{
+    position: absolute;
+    opacity: 1;
+    left: 2%;
+    top: 50%;
+    transform: translate(0%, -50%);
+    height: 31rem;
+    width: 31rem;
+}
+
+/******************************[[[[[[[[[[[[[[[[[[[ Saturn section    ]]]]]]]]]]]]]]]]]]]]]]]]]]*******************/
+.saturnSection
+{
+    position: relative;
+}
+
+.saturnSection .planet-details
+{
+    position: absolute;
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    left: 5%;
+    color: var(--font-color);
+    top: 50%;
+    transform: translate(0%, -50%);
+}
+
+.saturnSection #saturn
+{
+    position: absolute;
+    right: 0;
+    top: 50%;
+    transform: translate(0%,-50%);
+    /* border: 2px solid red; */
+    height: 28rem;
+    width: 32rem;
+    opacity: 1;
+}
+
+/*********************[[[[[[[[[[[[[[[[[[[[[ Uranus Section  ]]]]]]]]]]]]]]]]]]]]]]]]]]********************/
+.uranusSection
+{
+    position: relative;
+    height: 100vh;
+    width: 100%;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    flex-direction: column;
+    /* border: 2px solid red; */
+}
+
+.uranusSection .planet-details
+{
+    position: absolute;
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    right: 5%;
+}
+
+#uranus
+{
+    position: absolute;
+    opacity: 1;
+    left: 2%;
+    top: 50%;
+    transform: translate(0%, -50%);
+    height: 35rem;
+    width: 35rem;
+}
+
+/******************************[[[[[[[[[[[[[[[[[[[ Neptune section    ]]]]]]]]]]]]]]]]]]]]]]]]]]*******************/
+.neptuneSection
+{
+    position: relative;
+}
+
+.neptuneSection .planet-details
+{
+    position: absolute;
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    left: 5%;
+    color: var(--font-color);
+    top: 50%;
+    transform: translate(0%, -50%);
+}
+
+.neptuneSection #neptune
+{
+    position: absolute;
+    right: 0;
+    top: 50%;
+    transform: translate(0%,-50%);
+    /* border: 2px solid red; */
+    height: 29rem;
+    width: 29rem;
+    opacity: 1;
+}
