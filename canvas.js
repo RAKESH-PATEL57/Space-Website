@@ -1,8 +1,8 @@
 var HTMLbody = document.querySelector('body');
-var positionInfo = HTMLbody.getBoundingClientRect();
+// var positionInfo = HTMLbody.getBoundingClientRect();
 var bodyHeight =  document.body.clientHeight;
 var bodyWidth =  document.body.clientWidth;
-var width = positionInfo.width;
+// var width = positionInfo.width;
 console.log(bodyHeight);
 console.log(bodyWidth);
 
@@ -93,7 +93,7 @@ function Circle(x, y, dx, dy, radius) {   // object name is always capital lette
         c.strokeStyle = 'blue';
         c.stroke(); 
         // c.fillStyle = this.color;
-        c.fill();   // it will give black background
+        // c.fill();   // it will give black background
     }
 
     this.update = function()
@@ -146,7 +146,7 @@ function init()
     circleArray = [];
     for( var i =0; i< 1200; i++)
     {
-        var radius = Math.random() * .5 + 1;
+        var radius = Math.random() * 1.8 + 1;
         var x = Math.random() * (window.bodyWidth - radius * 2) + radius;
         var y = Math.random() * (window.bodyHeight - radius * 2) + radius;
         var dx = Math.random() - 0.5;
