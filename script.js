@@ -116,7 +116,7 @@ tl.from('#third-pl-details', {
     }
 });
 
-//*******************************[[[[[[[[[[[[[[[[[[[[[[      mars       ]]]]]]]]]]]]]]]]]]] ******************************]]]]]]]]]]]]]]]]]]]]]]]
+//*******************************[[[[[[[[[[[[[[[[[[[[[[      Mars       ]]]]]]]]]]]]]]]]]]] ******************************]]]]]]]]]]]]]]]]]]]]]]]
 tl.from('#mars', {
     x:-1000,
     y:-750,
@@ -138,6 +138,127 @@ tl.from('#fourth-pl-details', {
     // rotate:360,
     scrollTrigger: {
         trigger: '#fourth-pl-details',
+        start:'top 100%',
+        end:'bottom 75%',
+        scrub: true,   
+        // markers:true
+    }
+});
+
+
+//[[[[[[[[[[[[[[[[[[[[[[[[[[***************************  Jupiter  ***********************]]]]]]]]]]]]]]]]]]]]]
+
+tl.from('#jupiter', {
+    x:1050,
+    y:-800,
+    // rotate:360,
+    opacity:0,
+    scrollTrigger: {
+        trigger: '#jupiter',
+        start:'top 19%',
+        end:'bottom 15%',
+        scrub: true,     
+        // markers:true
+    },
+});
+
+tl.from('#fifth-pl-details', {
+    x:-400,
+    y:0,
+    opacity:0,
+    // rotate:360,
+    scrollTrigger: {
+        trigger: '#fifth-pl-details',
+        start:'top 100%',
+        end:'bottom 75%',
+        scrub: true,   
+        // markers:true
+    }
+});
+
+//*******************************[[[[[[[[[[[[[[[[[[[[[[      Saturn       ]]]]]]]]]]]]]]]]]]] ******************************]]]]]]]]]]]]]]]]]]]]]]]
+tl.from('#saturn', {
+    x:-1000,
+    y:-750,
+    // rotate:10,
+    // rotate:360,
+    opacity:0,
+    scrollTrigger: {
+        trigger: '#saturn',
+        start:'top 19%',
+        end:'bottom 15%',
+        scrub: true,   
+        // markers:true
+    },
+});
+
+tl.from('#sixth-pl-details', {
+    x:400,
+    y:0,
+    opacity:0,
+    // rotate:360,
+    scrollTrigger: {
+        trigger: '#sixth-pl-details',
+        start:'top 100%',
+        end:'bottom 75%',
+        scrub: true,   
+        // markers:true
+    }
+});
+
+//[[[[[[[[[[[[[[[[[[[[[[[[[[***************************  Uranus  ***********************]]]]]]]]]]]]]]]]]]]]]
+
+tl.from('#uranus', {
+    x:1050,
+    y:-800,
+    // rotate:360,
+    opacity:0,
+    scrollTrigger: {
+        trigger: '#uranus',
+        start:'top 19%',
+        end:'bottom 15%',
+        scrub: true,     
+        // markers:true
+    },
+});
+
+tl.from('#seventh-pl-details', {
+    x:-400,
+    y:0,
+    opacity:0,
+    // rotate:360,
+    scrollTrigger: {
+        trigger: '#seventh-pl-details',
+        start:'top 100%',
+        end:'bottom 75%',
+        scrub: true,   
+        // markers:true
+    }
+});
+
+//*******************************[[[[[[[[[[[[[[[[[[[[[[      Neptune       ]]]]]]]]]]]]]]]]]]] ******************************]]]]]]]]]]]]]]]]]]]]]]]
+tl.from('#neptune', {
+    x:-1000,
+    y:-750,
+    // rotate:10,
+    // rotate:360,
+    opacity:0,
+    scrollTrigger: {
+        trigger: '#neptune',
+        start:'top 19%',
+        end:'bottom 15%',
+        scrub: true,   
+        // markers:true
+    },
+});
+
+tl.from('#eighth-pl-details', {
+    x:400,
+    y:0,
+    opacity:0,
+    // rotate:360,
+    scrollTrigger: {
+        trigger: '#eighth-pl-details',
         start:'top 100%',
         end:'bottom 75%',
         scrub: true,   
